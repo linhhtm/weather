@@ -1,0 +1,47 @@
+:root {
+  --primary-color : #1E213A;
+  --primary-color-darker: #100E1D;
+  --text-color: #E7E7EB;
+  --text-color-darker: #88869D;
+  --sub-color: #FFEC65;
+  --button-color: #3C47E9;
+  --border-color: #616475;
+  --input-background-color: #6E707A;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../public/assets/font/Raleway.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: Raleway;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-default {
+      color: var(--text-color);
+    }
+    .bg-primary {
+      background-color: var(--primary-color);
+    }
+    .bg-input {
+      background-color: var(--input-background-color);
+    }
+    .shadow-default {
+      box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    }
+}
+
