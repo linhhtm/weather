@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "Raleway";
-  src: url("../public/assets/font/Raleway.ttf");
+  src: url("../src/assets/font/Raleway.ttf");
 }
 
 body {
@@ -34,8 +34,14 @@ code {
     .text-default {
       color: var(--text-color);
     }
+    .text-darker {
+      color: var(--text-color-darker);
+    }
     .bg-primary {
       background-color: var(--primary-color);
+    }
+     .bg-primary-darker {
+      background-color: var(--primary-color-darker);
     }
     .bg-input {
       background-color: var(--input-background-color);

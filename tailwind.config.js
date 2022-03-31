@@ -3,10 +3,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        weather: "url('../public/assets/img/may.png')",
+        weather: "url('../src/assets/img/may.png')",
       },
       backgroundPosition: {
-        weather: "50% 45%",
+        weather: "50% 10%",
       },
       backgroundSize: {
         weather: "140%",
