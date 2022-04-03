@@ -31,11 +31,26 @@ code {
 @tailwind utilities;
 
 @layer utilities {
+    .btn-group{
+      & > * {
+        margin-right: 8px;
+      }
+    }
+    .btn-active{
+      background-color: var(--text-color) !important;
+      color: #110E3C !important;
+    }
     .text-default {
       color: var(--text-color);
     }
     .text-darker {
       color: var(--text-color-darker);
+    }
+    .text-title {
+      letter-spacing: 1px;
+    }
+    .text-gray {
+      color: #A09FB1;
     }
     .bg-primary {
       background-color: var(--primary-color);
